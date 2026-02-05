@@ -42,6 +42,7 @@ npx skills add @mastepanoski/claude-skills --skill example-skill
 | `don-norman-principles-audit` | Evaluate UX/UI using Don Norman's 7 fundamental design principles: discoverability, affordances, signifiers, feedback, mapping, constraints, and conceptual models |
 | `nielsen-heuristics-audit` | Comprehensive usability evaluation using Jakob Nielsen's 10 industry-standard heuristics. Systematic audit with severity ratings and actionable recommendations |
 | `wcag-accessibility-audit` | Complete WCAG 2.1/2.2 accessibility audit across 4 POUR principles. Legal compliance checker with A/AA/AAA conformance levels, automated + manual testing procedures |
+| `cognitive-walkthrough` | Deep-dive task-specific usability analysis. Simulates novice user cognition step-by-step through the 4 cognitive questions to identify learnability issues and failure points |
 
 ## 🏗️ Skill Structure
 
