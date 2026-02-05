@@ -1,6 +1,6 @@
 # @mastepanoski/claude-skills
 
-![Version](https://img.shields.io/badge/version-1.6.0-blue)
+![Version](https://img.shields.io/badge/version-1.7.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Skills](https://img.shields.io/badge/skills-11-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)

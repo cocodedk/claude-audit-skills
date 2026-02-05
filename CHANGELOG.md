@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-02-05
+
+### Removed
+- **example-skill** - Removed template skill from `skills/` to prevent it from being installed with production skills
+
 ## [1.6.0] - 2026-02-05
 
 ### Added
@@ -235,7 +240,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.6.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.7.0...HEAD
+[1.7.0]: https://github.com/mastepanoski/claude-skills/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/mastepanoski/claude-skills/compare/v1.5.0...v1.6.0
 [1.5.0]: https://github.com/mastepanoski/claude-skills/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/mastepanoski/claude-skills/compare/v1.3.1...v1.4.0
