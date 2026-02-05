@@ -1,7 +1,7 @@
 {
   "name": "@mastepanoski/claude-skills",
   "version": "1.6.0",
-  "description": "Custom Agent Skills collection - Compatible with Claude Code, OpenAI Codex, ChatGPT and other AI agents",
+  "description": "UX/UI evaluation, AI governance, and AI security skills for AI coding assistants. Audit interfaces with Nielsen heuristics, WCAG, Don Norman principles. Assess AI risk with NIST AI RMF, ISO 42001, OWASP LLM Top 10, and OWASP AI Testing Guide.",
   "type": "module",
   "keywords": [
     "agent-skills",
@@ -11,8 +11,21 @@
     "codex",
     "chatgpt",
     "ai",
-    "automation",
-    "skills"
+    "skills",
+    "ux-audit",
+    "ui-review",
+    "wcag",
+    "accessibility",
+    "nielsen-heuristics",
+    "don-norman",
+    "cognitive-walkthrough",
+    "ai-governance",
+    "iso-42001",
+    "nist-ai-rmf",
+    "owasp-llm",
+    "ai-security",
+    "ai-testing",
+    "ai-assessment-scale"
   ],
   "author": "mastepanoski",
   "license": "MIT",
