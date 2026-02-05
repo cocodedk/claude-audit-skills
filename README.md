@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.5.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-10-orange)
+![Skills](https://img.shields.io/badge/skills-11-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
 ![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
 ![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
@@ -261,6 +261,30 @@ Security audit for LLM and GenAI applications using **OWASP Top 10 for LLM Apps 
 
 ---
 
+#### **owasp-ai-testing** - AI Trustworthiness Testing
+**[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/owasp-ai-testing)**
+
+```bash
+npx skills add mastepanoski/claude-skills --skill owasp-ai-testing
+```
+
+Systematic AI trustworthiness testing using **OWASP AI Testing Guide v1** (2025):
+- **44 test cases** across 4 layers: Application, Model, Infrastructure, Data
+- Practical payloads, observable indicators, and remediation for each test
+- Goes beyond security: fairness, explainability, reliability, privacy
+- Test IDs: AITG-APP (14), AITG-MOD (7), AITG-INF (6), AITG-DAT (5)
+
+**Best for**: AI penetration testing, trustworthiness validation, red-team exercises, CI/CD test suites
+
+**Example usage:**
+```
+"Run OWASP AI testing on our chatbot application"
+"Test our RAG system for prompt injection and data leakage"
+"Execute a trustworthiness assessment of our ML pipeline"
+```
+
+---
+
 #### **ai-assessment-scale** - AI Contribution Measurement
 **[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/ai-assessment-scale)**
 
@@ -329,6 +353,7 @@ The AI will provide:
 | AI system governance | `iso-42001-ai-governance` |
 | AI risk management | `nist-ai-rmf` |
 | LLM/GenAI security | `owasp-llm-top10` |
+| AI trustworthiness testing | `owasp-ai-testing` |
 | AI contribution transparency | `ai-assessment-scale` |
 
 **Pro tip**: Start with `ux-audit-rethink` for comprehensive evaluation, then use specialized skills to deep-dive into specific areas.

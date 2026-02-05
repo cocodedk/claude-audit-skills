@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **OWASP AI Testing Guide skill** - AI trustworthiness testing with 44 test cases
+  - Based on OWASP AI Testing Guide v1 (November 2025)
+  - 4 testing layers with complete test case coverage:
+    * Application Layer (AITG-APP-01 to AITG-APP-14): Prompt injection, data leak, unsafe outputs, agentic behavior, bias, hallucinations, explainability
+    * Model Layer (AITG-MOD-01 to AITG-MOD-07): Evasion attacks, runtime poisoning, membership inference, inversion attacks, robustness, goal alignment
+    * Infrastructure Layer (AITG-INF-01 to AITG-INF-06): Supply chain tampering, resource exhaustion, plugin boundaries, capability misuse, fine-tuning poisoning, model theft
+    * Data Layer (AITG-DAT-01 to AITG-DAT-05): Training data exposure, runtime exfiltration, dataset diversity, harmful data, data minimization
+  - Practical test approach, observable indicators, and remediation for each test
+  - Trustworthiness assessment beyond security (fairness, explainability, reliability, privacy)
+  - Test case priority matrix and quick reference table
+  - Suitable for: AI penetration testing, trustworthiness validation, red-team exercises, CI/CD test suites
+
+### Changed
+- Updated README badges: skills count from 10 to 11
+- Added OWASP AI Testing Guide to skill selection guide table
+
 ## [1.5.0] - 2026-02-05
 
 ### Added
