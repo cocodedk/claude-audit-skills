@@ -140,6 +140,9 @@ feat(wcag): Added comprehensive audit    # Capitalized, not imperative
 6. `cognitive-walkthrough` - Task-specific deep-dive using 4 cognitive questions to evaluate learnability
 7. `ui-design-review` - Visual design evaluation: typography, color, spacing, hierarchy, consistency, branding (10 dimensions)
 
+**AI Governance & Security:**
+8. `iso-42001-ai-governance` - AI governance (ISO 42001:2023): Risk management, ethics, security, transparency, regulatory compliance (EU AI Act, GDPR)
+
 ## Skill Quality Standards
 
 Before committing a new skill, verify:

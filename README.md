@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.2.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-6-orange)
+![Skills](https://img.shields.io/badge/skills-7-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
 ![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
 ![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
@@ -54,6 +54,12 @@ npx skills add @mastepanoski/claude-skills --skill example-skill
 | `wcag-accessibility-audit` | Complete WCAG 2.1/2.2 accessibility audit across 4 POUR principles. Legal compliance checker with A/AA/AAA conformance levels, automated + manual testing procedures |
 | `cognitive-walkthrough` | Deep-dive task-specific usability analysis. Simulates novice user cognition step-by-step through the 4 cognitive questions to identify learnability issues and failure points |
 | `ui-design-review` | Comprehensive visual design and aesthetics evaluation across 10 dimensions: hierarchy, typography, color, spacing, consistency, imagery, layout, components, branding, and modern standards |
+
+### 🛡️ AI Governance & Security
+
+| Skill | Description |
+|-------|-------------|
+| `iso-42001-ai-governance` | **NEW** - AI governance audit using ISO 42001:2023 standard. Ensures responsible AI development with risk management, ethics, security, transparency, and regulatory compliance (EU AI Act, GDPR) |
 
 ## 🏗️ Skill Structure
 

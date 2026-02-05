@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **ISO 42001 AI Governance skill** - Responsible AI development and deployment audit
+  - Based on ISO/IEC 42001:2023 international standard for AI Management Systems (AIMS)
+  - Comprehensive governance framework: 10 key clauses covering full AI lifecycle
+  - Risk management: Technical, ethical, legal, operational, and reputational risks
+  - Regulatory alignment: EU AI Act, GDPR, NIST AI RMF, sector-specific regulations
+  - AI lifecycle management: Design → Development → Validation → Deployment → Monitoring → Maintenance → Decommissioning
+  - Ethical AI principles: Fairness, transparency, accountability, privacy, human oversight
+  - Documentation requirements: Model cards, risk assessments, audit trails, incident reports
+  - Compliance roadmap with phased implementation
+  - Suitable for AI integrations, ML systems, and automated decision-making tools
+
 ## [1.2.0] - 2026-02-05
 
 ### Added
