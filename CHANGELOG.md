@@ -10,11 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial repository setup
 - Example skill template showing Agent Skills standard structure
-- UX/UI Evaluation Suite with four professional skills:
+- UX/UI Evaluation Suite with five professional skills:
   - Don Norman Principles Audit - Human-centered design evaluation
   - Nielsen Heuristics Audit - Comprehensive usability evaluation
   - WCAG Accessibility Audit - Legal compliance and accessibility testing
   - Cognitive Walkthrough - Task-specific deep-dive analysis for learnability
+  - UI Design Review - Visual design and aesthetics evaluation
 
 ### Documentation
 - README with installation instructions and skill descriptions

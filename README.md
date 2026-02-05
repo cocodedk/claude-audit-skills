@@ -43,6 +43,7 @@ npx skills add @mastepanoski/claude-skills --skill example-skill
 | `nielsen-heuristics-audit` | Comprehensive usability evaluation using Jakob Nielsen's 10 industry-standard heuristics. Systematic audit with severity ratings and actionable recommendations |
 | `wcag-accessibility-audit` | Complete WCAG 2.1/2.2 accessibility audit across 4 POUR principles. Legal compliance checker with A/AA/AAA conformance levels, automated + manual testing procedures |
 | `cognitive-walkthrough` | Deep-dive task-specific usability analysis. Simulates novice user cognition step-by-step through the 4 cognitive questions to identify learnability issues and failure points |
+| `ui-design-review` | Comprehensive visual design and aesthetics evaluation across 10 dimensions: hierarchy, typography, color, spacing, consistency, imagery, layout, components, branding, and modern standards |
 
 ## 🏗️ Skill Structure
 

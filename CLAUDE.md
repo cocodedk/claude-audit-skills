@@ -137,6 +137,7 @@ feat(wcag): Added comprehensive audit    # Capitalized, not imperative
 3. `nielsen-heuristics-audit` - 10 usability heuristics with severity ratings (0-4)
 4. `wcag-accessibility-audit` - WCAG 2.1/2.2 compliance (A/AA/AAA levels, 4 POUR principles)
 5. `cognitive-walkthrough` - Task-specific deep-dive using 4 cognitive questions to evaluate learnability
+6. `ui-design-review` - Visual design evaluation: typography, color, spacing, hierarchy, consistency, branding (10 dimensions)
 
 ## Skill Quality Standards
 
