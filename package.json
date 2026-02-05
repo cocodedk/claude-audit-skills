@@ -1,6 +1,6 @@
 {
   "name": "@mastepanoski/claude-skills",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Custom Agent Skills collection - Compatible with Claude Code, OpenAI Codex, ChatGPT and other AI agents",
   "type": "module",
   "keywords": [
