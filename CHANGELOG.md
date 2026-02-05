@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-02-05
+
 ### Added
 - **NIST AI RMF skill** - AI risk assessment using NIST AI Risk Management Framework 1.0
   - 4 core functions: Govern, Map, Measure, Manage with all categories and subcategories
@@ -214,7 +216,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/mastepanoski/claude-skills/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/mastepanoski/claude-skills/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/mastepanoski/claude-skills/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/mastepanoski/claude-skills/compare/v1.2.0...v1.3.0
