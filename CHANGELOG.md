@@ -7,6 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **NIST AI RMF skill** - AI risk assessment using NIST AI Risk Management Framework 1.0
+  - 4 core functions: Govern, Map, Measure, Manage with all categories and subcategories
+  - 7 trustworthiness characteristics evaluation (Valid, Safe, Secure, Accountable, Explainable, Privacy, Fair)
+  - Risk register and remediation roadmap templates
+  - Generative AI considerations per NIST AI 600-1 (July 2024)
+  - Regulatory alignment mapping (EU AI Act, state AI laws, sector regulations)
+  - Scoring guide for subcategory ratings and trustworthiness assessment
+  - Suitable for: AI risk assessment, regulatory preparation, organizational governance
+- **OWASP LLM Top 10 skill** - Security audit for LLM and GenAI applications (2025 edition)
+  - 10 critical vulnerabilities with attack vectors and mitigation strategies:
+    * LLM01: Prompt Injection (direct, indirect, jailbreaks)
+    * LLM02: Sensitive Information Disclosure
+    * LLM03: Supply Chain Vulnerabilities
+    * LLM04: Data and Model Poisoning
+    * LLM05: Improper Output Handling (XSS, SQL injection, RCE)
+    * LLM06: Excessive Agency
+    * LLM07: System Prompt Leakage
+    * LLM08: Vector and Embedding Weaknesses
+    * LLM09: Misinformation / Hallucination
+    * LLM10: Unbounded Consumption (DoS)
+  - Assessment checklists per vulnerability
+  - Security controls matrix and architecture review
+  - Vulnerability priority matrix and remediation roadmap
+  - Suitable for: LLM security audits, penetration testing, secure AI architecture
+
+### Changed
+- Updated README badges: skills count from 8 to 10
+- Added NIST AI RMF and OWASP LLM Top 10 to skill selection guide table
+
 ## [1.4.0] - 2026-02-05
 
 ### Added

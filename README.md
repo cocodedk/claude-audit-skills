@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.4.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-8-orange)
+![Skills](https://img.shields.io/badge/skills-10-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
 ![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
 ![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
@@ -214,6 +214,53 @@ AI system governance using **ISO 42001:2023** standard:
 
 ---
 
+#### **nist-ai-rmf** - AI Risk Management
+**[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/nist-ai-rmf)**
+
+```bash
+npx skills add mastepanoski/claude-skills --skill nist-ai-rmf
+```
+
+AI risk assessment using **NIST AI RMF 1.0** framework:
+- **4 core functions**: Govern, Map, Measure, Manage
+- **7 trustworthiness characteristics**: Valid, Safe, Secure, Accountable, Explainable, Privacy, Fair
+- Risk register and remediation roadmap
+- Generative AI considerations (NIST AI 600-1)
+
+**Best for**: AI risk assessment, regulatory preparation, organizational AI governance, trustworthy AI evaluation
+
+**Example usage:**
+```
+"Assess risks of our AI recommendation system using NIST AI RMF"
+"Evaluate trustworthiness of our chatbot deployment"
+"Conduct an AI risk management review for our ML pipeline"
+```
+
+---
+
+#### **owasp-llm-top10** - LLM Security Audit
+**[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/owasp-llm-top10)**
+
+```bash
+npx skills add mastepanoski/claude-skills --skill owasp-llm-top10
+```
+
+Security audit for LLM and GenAI applications using **OWASP Top 10 for LLM Apps 2025**:
+- **10 critical vulnerabilities**: Prompt Injection, Sensitive Info Disclosure, Supply Chain, Data Poisoning, Improper Output Handling, Excessive Agency, System Prompt Leakage, Vector Weaknesses, Misinformation, Unbounded Consumption
+- Attack vectors and mitigation strategies
+- Security controls matrix and remediation roadmap
+
+**Best for**: LLM application security, penetration testing, secure AI architecture, GenAI compliance
+
+**Example usage:**
+```
+"Audit security of our AI chatbot for OWASP LLM vulnerabilities"
+"Check our RAG system for prompt injection and data leakage risks"
+"Review security posture of our GenAI application"
+```
+
+---
+
 #### **ai-assessment-scale** - AI Contribution Measurement
 **[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/ai-assessment-scale)**
 
@@ -280,6 +327,8 @@ The AI will provide:
 | Analyze specific user task | `cognitive-walkthrough` |
 | Polish visual design | `ui-design-review` |
 | AI system governance | `iso-42001-ai-governance` |
+| AI risk management | `nist-ai-rmf` |
+| LLM/GenAI security | `owasp-llm-top10` |
 | AI contribution transparency | `ai-assessment-scale` |
 
 **Pro tip**: Start with `ux-audit-rethink` for comprehensive evaluation, then use specialized skills to deep-dive into specific areas.
