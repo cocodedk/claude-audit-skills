@@ -34,9 +34,14 @@ npx skills add @mastepanoski/claude-skills --skill example-skill
 
 ## 📚 Available Skills
 
+### 🎨 UX/UI Evaluation Suite
+
 | Skill | Description |
 |-------|-------------|
 | `example-skill` | A template skill showing the standard structure |
+| `don-norman-principles-audit` | Evaluate UX/UI using Don Norman's 7 fundamental design principles: discoverability, affordances, signifiers, feedback, mapping, constraints, and conceptual models |
+| `nielsen-heuristics-audit` | Comprehensive usability evaluation using Jakob Nielsen's 10 industry-standard heuristics. Systematic audit with severity ratings and actionable recommendations |
+| `wcag-accessibility-audit` | Complete WCAG 2.1/2.2 accessibility audit across 4 POUR principles. Legal compliance checker with A/AA/AAA conformance levels, automated + manual testing procedures |
 
 ## 🏗️ Skill Structure
 
@@ -77,13 +82,19 @@ Clear, step-by-step instructions the AI agent will follow...
 - [Claude Code Skills Docs](https://code.claude.com/docs/en/skills)
 - [How to Create Custom Skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 
-## 📝 License
-
-MIT License - See LICENSE file for details
-
 ## 🤝 Contributing
 
-Contributions welcome! Please open an issue or PR.
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for:
+- How to submit new skills
+- Commit message conventions (Conventional Commits)
+- Pull request process
+- Testing guidelines
+
+See [CHANGELOG.md](CHANGELOG.md) for version history.
+
+## 📝 License
+
+MIT License - See [LICENSE](LICENSE) file for details
 
 ---
 
