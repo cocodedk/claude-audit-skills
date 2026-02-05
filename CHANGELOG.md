@@ -7,17 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-02-05
+
 ### Added
-- **ISO 42001 AI Governance skill** - Responsible AI development and deployment audit
+- **ISO 42001 AI Governance skill** 🛡️ New AI Governance & Security category
   - Based on ISO/IEC 42001:2023 international standard for AI Management Systems (AIMS)
   - Comprehensive governance framework: 10 key clauses covering full AI lifecycle
-  - Risk management: Technical, ethical, legal, operational, and reputational risks
+  - Risk management across 5 categories:
+    * Technical risks (accuracy, robustness, adversarial attacks)
+    * Ethical risks (bias, fairness, privacy violations)
+    * Legal risks (regulatory compliance, liability)
+    * Operational risks (vendor dependencies, skill gaps)
+    * Reputational risks (public trust, brand damage)
   - Regulatory alignment: EU AI Act, GDPR, NIST AI RMF, sector-specific regulations
-  - AI lifecycle management: Design → Development → Validation → Deployment → Monitoring → Maintenance → Decommissioning
+  - Complete AI lifecycle management: Design → Development → Validation → Deployment → Monitoring → Maintenance → Decommissioning
   - Ethical AI principles: Fairness, transparency, accountability, privacy, human oversight
-  - Documentation requirements: Model cards, risk assessments, audit trails, incident reports
-  - Compliance roadmap with phased implementation
-  - Suitable for AI integrations, ML systems, and automated decision-making tools
+  - Data governance: Quality assessment, bias detection, privacy compliance (GDPR)
+  - Model development: Fairness testing, explainability requirements, adversarial robustness
+  - Comprehensive testing: Performance, fairness, safety, security validation
+  - Deployment best practices: Phased rollout, human-in-the-loop, incident response
+  - Continuous monitoring: Performance, fairness, drift detection, safety alerts
+  - Documentation framework: Model cards, risk registers, audit trails, incident reports
+  - Compliance roadmap: 3-phase implementation (0-3, 3-6, 6-12 months)
+  - Complete ISO conformance report template with scoring
+  - Suitable for: AI integrations, ML systems, automated decision-making, LLM deployments
+
+### Changed
+- Reorganized README with new "AI Governance & Security" section
+- Updated badges: skills count from 6 to 7
 
 ## [1.2.0] - 2026-02-05
 
@@ -113,7 +130,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/mastepanoski/claude-skills/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/mastepanoski/claude-skills/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/mastepanoski/claude-skills/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/mastepanoski/claude-skills/releases/tag/v1.0.0
