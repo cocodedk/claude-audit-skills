@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] - 2026-02-05
+
+### Changed
+- **Documentation improvements** - Enhanced user experience for discovering and installing skills
+  - Reorganized README to focus on end users (skill consumers) vs developers (skill creators)
+  - Created new DEVELOPMENT.md with comprehensive technical guide for contributors
+  - Added prominent skills.sh integration:
+    * Direct link to collection: https://skills.sh/mastepanoski/claude-skills
+    * Individual skill pages with install commands and community stats
+    * Featured skills.sh as official directory by Vercel
+  - Added one-click install commands for each skill
+  - Improved skill descriptions with "Best for" use cases and example usage
+  - Added Skill Selection Guide table to help users choose the right skill
+  - Enhanced "How to Use" section with step-by-step workflow
+  - Moved technical content (architecture, testing, commit conventions) to DEVELOPMENT.md
+
+### Documentation
+- **DEVELOPMENT.md** - New comprehensive guide for developers (10 sections, 400+ lines)
+  - Architecture overview and repository structure
+  - Development environment setup
+  - Step-by-step guide for creating new skills
+  - Local testing procedures with validation checklist
+  - SKILL.md anatomy and formatting requirements
+  - Conventional Commits guidelines with examples
+  - Quality standards checklist
+  - Publishing workflow for contributors and maintainers
+  - Multi-agent compatibility guidelines
+  - Resources and community links
+
 ## [1.3.0] - 2026-02-05
 
 ### Added
@@ -130,7 +159,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/mastepanoski/claude-skills/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/mastepanoski/claude-skills/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/mastepanoski/claude-skills/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/mastepanoski/claude-skills/compare/v1.0.0...v1.1.0
