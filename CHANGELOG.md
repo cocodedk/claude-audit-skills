@@ -7,30 +7,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-02-05
+
 ### Added
-- Initial repository setup
-- Example skill template showing Agent Skills standard structure
-- UX/UI Evaluation Suite with five professional skills:
-  - Don Norman Principles Audit - Human-centered design evaluation
-  - Nielsen Heuristics Audit - Comprehensive usability evaluation
-  - WCAG Accessibility Audit - Legal compliance and accessibility testing
-  - Cognitive Walkthrough - Task-specific deep-dive analysis for learnability
-  - UI Design Review - Visual design and aesthetics evaluation
+- **Cognitive Walkthrough skill** - Task-specific deep-dive usability evaluation
+  - Simulates novice user cognition step-by-step
+  - 4 cognitive questions per action (goal clarity, discoverability, association, feedback)
+  - Failure point identification and success probability estimation
+  - Cognitive load assessment with actionable recommendations
+- **UI Design Review skill** - Comprehensive visual design and aesthetics evaluation
+  - 10 design dimensions: hierarchy, typography, color, spacing, consistency, imagery, layout, components, branding, modern standards
+  - Component audit checklist and design system assessment
+  - Competitive comparison and first impression analysis
+  - Design quality scoring (0-100) and trend analysis (2026)
 
 ### Documentation
-- README with installation instructions and skill descriptions
-- LICENSE (MIT)
-- CONTRIBUTING guide with Conventional Commits standard
-- CHANGELOG following Keep a Changelog format
-- CLAUDE.md with repository architecture guidance
+- Added CLAUDE.md with repository architecture and development guidelines
+- Updated README with new skills
+- Updated CONTRIBUTING with complete workflow examples
 
 ## [1.0.0] - 2026-02-05
 
 ### Added
 - Initial release of @mastepanoski/claude-skills
 - Agent Skills standard-compliant repository structure
-- Three production-ready UX evaluation skills
-- Complete documentation and contribution guidelines
+- Example skill template showing Agent Skills standard structure
+- UX/UI Evaluation Suite with three professional skills:
+  - Don Norman Principles Audit - Human-centered design evaluation (7 principles)
+  - Nielsen Heuristics Audit - Comprehensive usability evaluation (10 heuristics)
+  - WCAG Accessibility Audit - Legal compliance and accessibility testing (WCAG 2.1/2.2)
+- Complete documentation:
+  - README with installation instructions and skill descriptions
+  - LICENSE (MIT)
+  - CONTRIBUTING guide with Conventional Commits standard
+  - CHANGELOG following Keep a Changelog format
+- GitHub templates:
+  - Issue templates (bug report, feature request)
+  - Pull request template
 
 ---
 
@@ -66,5 +79,6 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/mastepanoski/claude-skills/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/mastepanoski/claude-skills/releases/tag/v1.0.0
