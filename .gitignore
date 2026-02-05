@@ -20,6 +20,39 @@ Thumbs.db
 *.swo
 *~
 
+# Agent skill installations (created by npx skills add)
+.agents/
+.adal/
+.agent/
+.augment/
+.claude/
+.cline/
+.codebuddy/
+.commandcode/
+.continue/
+.crush/
+.cursor/
+.factory/
+.goose/
+.iflow/
+.junie/
+.kilocode/
+.kiro/
+.kode/
+.mcpjam/
+.mux/
+.neovate/
+.openhands/
+.pi/
+.pochi/
+.qoder/
+.qwen/
+.roo/
+.trae/
+.vibe/
+.windsurf/
+.zencoder/
+
 # Testing
 coverage/
 .nyc_output/
