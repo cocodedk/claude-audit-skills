@@ -7,14 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-02-05
+
 ### Added
-- **UX Audit and Rethink skill** - Holistic UX evaluation framework
-  - Based on IxDF "The Basics of User Experience Design"
-  - 7 UX Factors (Useful, Usable, Findable, Credible, Desirable, Accessible, Valuable)
-  - 5 Usability Characteristics (Effectiveness, Efficiency, Engagement, Error Tolerance, Ease of Learning)
-  - 5 Interaction Design Dimensions (Words, Visual Representations, Physical Objects/Space, Time, Behavior)
-  - Comprehensive scoring (0-100) with strategic redesign proposals
-  - Research technique recommendations and implementation roadmap
+- **UX Audit and Rethink skill** ⭐ Marked as "START HERE" for holistic evaluation
+  - Based on IxDF "The Basics of User Experience Design" methodology
+  - Triple framework approach:
+    * 7 UX Factors (Peter Morville's Honeycomb): Useful, Usable, Findable, Credible, Desirable, Accessible, Valuable
+    * 5 Usability Characteristics (ISO 9241-11): Effectiveness, Efficiency, Engagement, Error Tolerance, Ease of Learning
+    * 5 Interaction Design Dimensions: Words, Visual Representations, Physical Objects/Space, Time, Behavior
+  - Comprehensive 0-100 scoring system with A-F grading
+  - Mobile-specific guidelines (IxDF Chapter 8)
+  - Design Thinking integration (Empathize, Define, Ideate, Prototype, Test)
+  - UX research technique recommendations (user interviews, card sorting, usability testing, etc.)
+  - Strategic redesign proposals with ROI estimates
+  - Phase-based implementation roadmap
+  - Complete executive audit report template
+  - Evidence-based prioritization matrix
+
+### Changed
+- Reorganized README with "START HERE" indicator for new users
+- Updated evaluation methodology workflow recommendations
 
 ## [1.1.0] - 2026-02-05
 
@@ -88,6 +101,7 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/mastepanoski/claude-skills/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/mastepanoski/claude-skills/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/mastepanoski/claude-skills/releases/tag/v1.0.0
