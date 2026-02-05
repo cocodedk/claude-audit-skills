@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.3.1-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-7-orange)
+![Skills](https://img.shields.io/badge/skills-8-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
 ![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
 ![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
@@ -214,6 +214,30 @@ AI system governance using **ISO 42001:2023** standard:
 
 ---
 
+#### **ai-assessment-scale** - AI Contribution Measurement
+**[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/ai-assessment-scale)**
+
+```bash
+npx skills add mastepanoski/claude-skills --skill ai-assessment-scale
+```
+
+Evaluate AI contribution levels using the **AI Assessment Scale (AIAS)** framework:
+- **5-level framework**: No AI → AI Planning → AI Collaboration → Full AI → AI Exploration
+- Transparency and disclosure recommendations
+- Human oversight assessment
+- Development stage analysis (planning, implementation, testing, docs)
+
+**Best for**: AI usage transparency, project documentation, team workflow assessment, compliance disclosure
+
+**Example usage:**
+```
+"Evaluate the AI contribution level in my project"
+"Assess how much AI was used in this codebase"
+"Generate an AIAS transparency report for my repository"
+```
+
+---
+
 ## 💡 How to Use
 
 ### 1. Install the skill you need
@@ -256,6 +280,7 @@ The AI will provide:
 | Analyze specific user task | `cognitive-walkthrough` |
 | Polish visual design | `ui-design-review` |
 | AI system governance | `iso-42001-ai-governance` |
+| AI contribution transparency | `ai-assessment-scale` |
 
 **Pro tip**: Start with `ux-audit-rethink` for comprehensive evaluation, then use specialized skills to deep-dive into specific areas.
 

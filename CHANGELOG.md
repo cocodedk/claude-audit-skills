@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **AI Assessment Scale skill** 🤖 Measure AI contribution in projects
+  - Based on AIAS framework by Mike Perkins, Leon Furze, Jasper Roe, and Jason MacVaugh
+  - 5-level framework for measuring AI involvement:
+    * Level 1: No AI - Work completed entirely without AI assistance
+    * Level 2: AI Planning - AI supports preliminary activities (brainstorming, research)
+    * Level 3: AI Collaboration - AI assists with drafting, humans critically refine
+    * Level 4: Full AI - Extensive AI usage with human oversight and strategic direction
+    * Level 5: AI Exploration - Creative/experimental AI usage for novel problem-solving
+  - Transparency and disclosure assessment
+  - Human oversight and critical evaluation metrics
+  - Development area analysis (planning, implementation, testing, documentation)
+  - AIAS badge recommendations for README disclosure
+  - Comprehensive transparency report template
+  - Evidence-based assessment methodology
+  - Best practices for AI disclosure in open-source and commercial projects
+  - Compliance and risk assessment framework
+  - Suitable for: Project transparency, AI usage documentation, team workflow assessment, compliance reporting
+
+### Changed
+- Updated README badges: skills count from 7 to 8
+- Added AI Assessment Scale to skill selection guide table
+
 ## [1.3.1] - 2026-02-05
 
 ### Changed
