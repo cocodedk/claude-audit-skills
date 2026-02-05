@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **UX Audit and Rethink skill** - Holistic UX evaluation framework
+  - Based on IxDF "The Basics of User Experience Design"
+  - 7 UX Factors (Useful, Usable, Findable, Credible, Desirable, Accessible, Valuable)
+  - 5 Usability Characteristics (Effectiveness, Efficiency, Engagement, Error Tolerance, Ease of Learning)
+  - 5 Interaction Design Dimensions (Words, Visual Representations, Physical Objects/Space, Time, Behavior)
+  - Comprehensive scoring (0-100) with strategic redesign proposals
+  - Research technique recommendations and implementation roadmap
+
 ## [1.1.0] - 2026-02-05
 
 ### Added

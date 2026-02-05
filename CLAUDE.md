@@ -133,11 +133,12 @@ feat(wcag): Added comprehensive audit    # Capitalized, not imperative
 
 **UX/UI Evaluation Suite:**
 1. `example-skill` - Template demonstrating skill structure
-2. `don-norman-principles-audit` - 7 principles: discoverability, affordances, signifiers, feedback, mapping, constraints, conceptual models
-3. `nielsen-heuristics-audit` - 10 usability heuristics with severity ratings (0-4)
-4. `wcag-accessibility-audit` - WCAG 2.1/2.2 compliance (A/AA/AAA levels, 4 POUR principles)
-5. `cognitive-walkthrough` - Task-specific deep-dive using 4 cognitive questions to evaluate learnability
-6. `ui-design-review` - Visual design evaluation: typography, color, spacing, hierarchy, consistency, branding (10 dimensions)
+2. `ux-audit-rethink` - Holistic UX audit (IxDF): 7 factors + 5 usability characteristics + 5 interaction dimensions + redesign proposals
+3. `don-norman-principles-audit` - 7 principles: discoverability, affordances, signifiers, feedback, mapping, constraints, conceptual models
+4. `nielsen-heuristics-audit` - 10 usability heuristics with severity ratings (0-4)
+5. `wcag-accessibility-audit` - WCAG 2.1/2.2 compliance (A/AA/AAA levels, 4 POUR principles)
+6. `cognitive-walkthrough` - Task-specific deep-dive using 4 cognitive questions to evaluate learnability
+7. `ui-design-review` - Visual design evaluation: typography, color, spacing, hierarchy, consistency, branding (10 dimensions)
 
 ## Skill Quality Standards
 

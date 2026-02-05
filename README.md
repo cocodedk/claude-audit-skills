@@ -39,6 +39,7 @@ npx skills add @mastepanoski/claude-skills --skill example-skill
 | Skill | Description |
 |-------|-------------|
 | `example-skill` | A template skill showing the standard structure |
+| `ux-audit-rethink` | **⭐ START HERE** - Holistic UX audit using IxDF's 7 factors, 5 usability characteristics, and 5 interaction dimensions. Comprehensive evaluation with strategic redesign proposals and research recommendations |
 | `don-norman-principles-audit` | Evaluate UX/UI using Don Norman's 7 fundamental design principles: discoverability, affordances, signifiers, feedback, mapping, constraints, and conceptual models |
 | `nielsen-heuristics-audit` | Comprehensive usability evaluation using Jakob Nielsen's 10 industry-standard heuristics. Systematic audit with severity ratings and actionable recommendations |
 | `wcag-accessibility-audit` | Complete WCAG 2.1/2.2 accessibility audit across 4 POUR principles. Legal compliance checker with A/AA/AAA conformance levels, automated + manual testing procedures |
