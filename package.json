@@ -1,0 +1,34 @@
+{
+  "name": "@mastepanoski/claude-skills",
+  "version": "1.0.0",
+  "description": "Custom Agent Skills collection - Compatible with Claude Code, OpenAI Codex, ChatGPT and other AI agents",
+  "type": "module",
+  "keywords": [
+    "agent-skills",
+    "claude",
+    "claude-code",
+    "openai",
+    "codex",
+    "chatgpt",
+    "ai",
+    "automation",
+    "skills"
+  ],
+  "author": "mastepanoski",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mastepanoski/claude-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mastepanoski/claude-skills/issues"
+  },
+  "homepage": "https://github.com/mastepanoski/claude-skills#readme",
+  "files": [
+    "skills/"
+  ],
+  "scripts": {
+    "validate": "echo 'Validating skills structure...' && node scripts/validate.js",
+    "test": "echo 'No tests yet' && exit 0"
+  }
+}
