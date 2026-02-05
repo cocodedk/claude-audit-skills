@@ -1,6 +1,15 @@
 # @mastepanoski/claude-skills
 
+![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Skills](https://img.shields.io/badge/skills-6-orange)
+![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
+![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
+![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
+
 Custom Agent Skills collection compatible with multiple AI coding assistants.
+
+**🌐 Featured on**: [skills.sh](https://skills.sh) | Open Agent Skills Directory
 
 ## 🤖 Compatible Agents
 
@@ -79,9 +88,33 @@ Clear, step-by-step instructions the AI agent will follow...
 4. Test locally: `npx skills add . --skill your-skill-name`
 5. Commit and push to GitHub
 
+## 🌐 Discover More Skills
+
+This repository is listed on:
+
+### [skills.sh](https://skills.sh) - The Open Agent Skills Directory
+**Official directory by Vercel** for discovering and sharing agent skills.
+
+- **Automatic Indexing**: Your skills are automatically indexed once your GitHub repo follows the Agent Skills standard
+- **Search & Discovery**: Users can find your skills by searching categories, authors, or keywords
+- **Install Tracking**: See how many times your skills have been installed
+- **Leaderboard**: Popular skills are featured on the platform
+
+**How to appear on skills.sh:**
+1. ✅ Follow Agent Skills standard (SKILL.md format) - Already done!
+2. ✅ Publish to public GitHub repository - Already done!
+3. ✅ Skills.sh automatically crawls and indexes GitHub repos with Agent Skills
+4. 🔍 Search for "mastepanoski/claude-skills" on [skills.sh](https://skills.sh)
+
+**Alternative directories:**
+- [SkillsMP](https://skillsmp.com/) - Agent Skills Marketplace
+- [Skills Directory](https://www.skillsdirectory.com/) - Open registry for agent skills
+- [MCP Market](https://mcpmarket.com/tools/skills) - Agent Skills for Claude, ChatGPT & Codex
+
 ## 📖 Resources
 
-- [Agent Skills Specification](https://github.com/anthropics/skills)
+- [Agent Skills Specification](https://github.com/anthropics/skills) - Official standard by Anthropic
+- [skills.sh](https://skills.sh) - Open directory by Vercel
 - [Claude Code Skills Docs](https://code.claude.com/docs/en/skills)
 - [How to Create Custom Skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 
