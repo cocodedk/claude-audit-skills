@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.7.1] - 2026-03-04
+
+### Security
+- **W011 prompt injection mitigations** - Strengthened OWASP LLM01 controls across all skills
+- Applied prompt injection mitigations to all skills for safer agentic execution
+
 ## [1.7.0] - 2026-02-05
 
 ### Removed
