@@ -346,10 +346,11 @@ Before submitting, ensure your skill:
 
 ### Before Submitting
 
-1. **Test locally**:
+1. **Validate locally**:
    ```bash
-   npx skills add . --skill your-skill-name
+   npm run validate
    ```
+   (See [Testing Your Skills](#-testing-your-skills) for live-install testing.)
 
 2. **Validate SKILL.md**:
    - YAML frontmatter parses correctly
@@ -420,13 +421,26 @@ Maintainers will:
 
 ### Local Testing
 
-```bash
-# From repository root
-npx skills add . --skill your-skill-name
+First, validate structure from the repository root:
 
-# Test with Claude Code CLI
+```bash
+npm run validate
+```
+
+For a real install test of your **local working copy** (including branch changes), install
+into a scratch target **outside** the repo, passing the repo path as the source, then
+exercise it with the Claude Code CLI:
+
+```bash
+mkdir -p /tmp/skills-test && cd /tmp/skills-test
+npx skills add /absolute/path/to/your/clone --skill your-skill-name
 claude "Use [your-skill-name] to evaluate [something]"
 ```
+
+> ⚠️ Do **not** run `npx skills add .` from the repository root — the CLI treats the cwd as
+> the install target, creates `.agents/` inside the repo, and replaces `skills/<name>/` with
+> a symlink into it, clobbering the source. Keeping the target in `/tmp` (cwd ≠ repo) leaves
+> the repo untouched.
 
 ### Manual Testing Checklist
 
