@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+- Applied progressive disclosure to the two largest skills, splitting detailed content into `references/` per the Agent Skills structure (SKILL.md keeps workflow + pointers):
+  - `iso-42001-ai-governance` (1230 → 201 lines): moved the step-by-step audit procedure to `references/audit-procedure.md` and the report template + compliance checklist to `references/report-template.md`.
+  - `owasp-ai-testing` (1142 → 212 lines): moved the 32 test cases to `references/test-cases.md` (with priority index) and the assessment report template to `references/report-template.md`.
+- Refined the `validate.js` >500-line warning to reference progressive disclosure, `references/`, and a table-of-contents requirement for reference files over 300 lines.
 - Corrected OWASP AI Testing Guide coverage from 44 to 32 test cases.
 - Updated WCAG guidance for ISO/IEC 40500:2025 and integrated WCAG 2.2 A/AA criteria into the main checklist.
 - Added NIST critical infrastructure profile and ISO/IEC 42005 impact assessment pointers.
