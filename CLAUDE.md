@@ -8,16 +8,26 @@ This is an **Agent Skills repository** following the open standard that makes sk
 
 ## Testing Skills Locally
 
+Validate structure (descriptions ≤200 chars, frontmatter, naming, SKILL.md size) with the bundled script:
+
 ```bash
-# Test a single skill from repository root
-npx skills add . --skill skill-name
-
-# List all available skills
-npx skills add . --list
-
-# Example: Test the WCAG audit skill
-npx skills add . --skill wcag-accessibility-audit
+npm run validate          # or: node scripts/validate.js
 ```
+
+To exercise a **real install of your local working copy** (including uncommitted branch
+changes), install into a scratch target **outside** the repo, passing the repo path as the
+source:
+
+```bash
+mkdir -p /tmp/skills-test && cd /tmp/skills-test
+npx skills add /absolute/path/to/this/repo --skill skill-name
+# installed under /tmp/skills-test/.agents/skills/<skill-name>/ (SKILL.md + references/)
+```
+
+> ⚠️ Do **not** run `npx skills add .` from the repository root. The CLI treats the cwd as
+> the install target, so it creates `.agents/` inside the repo, replaces `skills/<name>/`
+> with a symlink into it, and writes `skills-lock.json` — clobbering the source. Keeping the
+> target in `/tmp` (cwd ≠ repo) leaves the repo untouched; the repo is only read as the source.
 
 After installing, invoke the skill through natural language (the AI agent will automatically detect when to use it based on the YAML description).
 
@@ -77,10 +87,11 @@ mkdir -p skills/your-skill-name
 
 4. **Update CHANGELOG.md:** Document the addition under `[Unreleased]`
 
-5. **Test locally:**
+5. **Validate locally:**
 ```bash
-npx skills add . --skill your-skill-name
+npm run validate
 ```
+(For a real install test, run `npx skills add` from outside the repo — see "Testing Skills Locally".)
 
 6. **Commit using Conventional Commits:**
 ```bash
@@ -150,7 +161,7 @@ Before committing a new skill, verify:
 - [ ] Step-by-step procedure with actionable instructions
 - [ ] Defined output format
 - [ ] No spelling/grammar errors
-- [ ] Tested locally with `npx skills add .`
+- [ ] Validated locally with `npm run validate` (do not run `npx skills add .` from the repo root)
 - [ ] Added to README.md skills table
 - [ ] Added to CHANGELOG.md under `[Unreleased]`
 - [ ] Uses kebab-case naming

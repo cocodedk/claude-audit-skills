@@ -82,7 +82,7 @@ if (!fs.existsSync(skillsDir)) {
     }
 
     if (lineCount > 500) {
-      warn(`${relativePath}: ${lineCount} lines; consider moving detailed examples to references/`);
+      warn(`${relativePath}: ${lineCount} lines (>500 ideal). Apply progressive disclosure: keep the workflow in SKILL.md and move detailed reference material (criteria tables, rubrics, domain variants) to references/, with clear pointers from the body. Add a table of contents to any reference file >300 lines.`);
     }
   }
 }
