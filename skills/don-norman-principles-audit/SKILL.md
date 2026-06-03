@@ -216,7 +216,7 @@ Structure your audit report as:
 Based on **Don Norman's "The Design of Everyday Things" (Revised Edition)**
 Principles: Discoverability, Affordance, Signifiers, Feedback, Mapping, Constraints, Conceptual Models
 
-Adapted for digital interface evaluation in alignment with modern UX standards (2026).
+Adapted for digital interface evaluation using contemporary UX practice.
 
 ## Version
 

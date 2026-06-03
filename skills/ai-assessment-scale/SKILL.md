@@ -1,13 +1,15 @@
 ---
 name: ai-assessment-scale
-description: Evaluate AI contribution in projects using the AI Assessment Scale (AIAS) 5-level framework. Measure AI involvement from no AI to full AI exploration across development stages.
+description: Evaluate AI contribution in software projects using the AI Assessment Scale (AIAS) v2 5-level framework. Adapt the education-focused framework for transparent project documentation across development stages.
 ---
 
 # AI Assessment Scale (AIAS)
 
 This skill enables AI agents to evaluate the **level of AI contribution** in software projects using the **AI Assessment Scale (AIAS)** framework developed by Mike Perkins, Leon Furze, Jasper Roe, and Jason MacVaugh.
 
-The AIAS provides a **5-level framework** for understanding and documenting AI's role in project development, from zero AI assistance to creative AI exploration. Originally designed for educational assessments, this framework has been adapted for software development to help teams transparently communicate AI involvement in their work.
+The AIAS provides a **5-level framework** for understanding and documenting AI's role, from zero AI assistance to creative AI exploration. Originally designed for educational assessments, this skill adapts the framework for software development so teams can transparently communicate AI involvement in their work.
+
+**Adaptation boundary**: AIAS v2 is an education framework, not a software compliance standard. Use this skill to create clear disclosure and evidence summaries, not to certify project quality or rank teams by "better" AI usage.
 
 Use this skill to assess AI contribution levels, document AI usage for transparency, and understand where human critical thinking vs AI assistance is applied throughout your project lifecycle.
 
@@ -358,8 +360,10 @@ Generate a comprehensive AIAS evaluation report with the following structure:
 
 **1. README Badge**
 ```markdown
-![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%20[X]%20[Name]-[color])
+![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%20[X]%20[Name]-lightgrey)
 ```
+
+Use neutral badge colors so the levels are not read as a hierarchy where more AI is inherently better.
 
 **2. README Section**
 ```markdown
@@ -396,22 +400,22 @@ This project was developed with AI assistance:
 
 ### Level 2 - AI Planning
 ```markdown
-![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%202%20Planning-lightblue)
+![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%202%20Planning-lightgrey)
 ```
 
 ### Level 3 - AI Collaboration
 ```markdown
-![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%203%20Collaboration-blue)
+![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%203%20Collaboration-lightgrey)
 ```
 
 ### Level 4 - Full AI
 ```markdown
-![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%204%20Full%20AI-darkblue)
+![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%204%20Full%20AI-lightgrey)
 ```
 
 ### Level 5 - AI Exploration
 ```markdown
-![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%205%20Exploration-purple)
+![AI Contribution](https://img.shields.io/badge/AI%20Contribution-Level%205%20Exploration-lightgrey)
 ```
 
 ---
@@ -449,6 +453,7 @@ This project was developed with AI assistance:
 ### AIAS Framework
 - [AI Assessment Scale Website](https://aiassessmentscale.com)
 - [AIAS Version 2.0 Documentation](https://aiassessmentscale.com) (2024)
+- [The AI Assessment Scale Revisited](https://doi.org/10.53761/rrm4y757) (2024)
 - Framework Authors: Mike Perkins, Leon Furze, Jasper Roe, Jason MacVaugh
 
 ### AI Transparency Best Practices

@@ -37,6 +37,18 @@ When executing this audit, gather:
 - **data_sensitivity**: Types of data processed (PII, financial, health, proprietary) [OPTIONAL]
 - **existing_controls**: Current security measures (auth, rate limiting, content filtering) [OPTIONAL]
 - **specific_concerns**: Known vulnerabilities or areas of focus [OPTIONAL]
+- **testing_authorization**: Explicit authorization, environment, and boundaries for active testing [REQUIRED for live or active tests]
+- **safe_testing_mode**: documentation-only, staging, production-readonly, or production-approved [OPTIONAL, defaults to documentation-only unless authorization is clear]
+
+## Authorized Testing Boundary
+
+Only run active security tests on systems the user owns or is explicitly authorized to test. If authorization is absent or unclear, perform a documentation and architecture review only, using safe hypothetical examples instead of live payload execution.
+
+For production systems:
+- Prefer staging or read-only validation
+- Avoid denial-of-service, destructive, persistence, or real exfiltration tests unless written scope explicitly permits them
+- Redact credentials, secrets, PII, and sensitive prompt or model outputs in reports
+- Stop and report if testing crosses the approved scope
 
 ---
 

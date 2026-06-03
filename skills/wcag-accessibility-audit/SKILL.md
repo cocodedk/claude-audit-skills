@@ -7,7 +7,7 @@ description: Comprehensive web accessibility audit using WCAG 2.1/2.2 guidelines
 
 This skill enables AI agents to perform a comprehensive **web accessibility evaluation** using the **Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2** standards, ensuring digital products are usable by people with disabilities.
 
-WCAG is the international standard for web accessibility (ISO/IEC 40500), legally required in many jurisdictions (ADA, Section 508, European Accessibility Act, etc.).
+WCAG is the international standard for web accessibility. WCAG 2.2 is a W3C Recommendation and was approved as ISO/IEC 40500:2025; WCAG 3 is still a working draft and should not be used as a conformance target.
 
 Use this skill to identify accessibility barriers, ensure legal compliance, reach broader audiences, and build inclusive digital experiences.
 
@@ -33,7 +33,7 @@ When executing this audit, gather:
 - **target_conformance_level**: A, AA (most common), or AAA [OPTIONAL, defaults to AA]
 - **specific_concerns**: Known accessibility issues or user complaints [OPTIONAL]
 - **assistive_technologies_used**: Screen readers, keyboard-only, voice control, etc. [OPTIONAL]
-- **wcag_version**: 2.1 or 2.2 (defaults to 2.2, latest) [OPTIONAL]
+- **wcag_version**: 2.1 or 2.2 (defaults to 2.2, latest Recommendation) [OPTIONAL]
 
 ## The 4 POUR Principles
 
@@ -80,7 +80,7 @@ WCAG defines three levels of conformance:
 - **Level AA**: Target level for most organizations (addresses major barriers) ⭐ **MOST COMMON**
 - **Level AAA**: Highest level (enhanced accessibility, not always achievable for all content)
 
-**Legal Requirements**: Most laws require Level AA compliance.
+**Legal Requirements**: Many accessibility laws and procurement policies target Level AA, but legal obligations vary by jurisdiction.
 
 ## Critical Success Criteria (Level A & AA)
 
@@ -190,6 +190,10 @@ Focus on these high-impact criteria:
 - Minimum 2px, high contrast
 - Never remove outline without replacement
 
+**2.4.11 Focus Not Obscured (Minimum) (AA) - WCAG 2.2**
+- Focused component is not entirely hidden by sticky headers, overlays, or dialogs
+- Keyboard users can see where focus moved
+
 **2.5.1 Pointer Gestures (A) - WCAG 2.1**
 - Multi-point or path-based gestures have single-pointer alternative
 - Pinch zoom → buttons, swipe → arrow buttons
@@ -206,6 +210,14 @@ Focus on these high-impact criteria:
 **2.5.4 Motion Actuation (A) - WCAG 2.1**
 - Functionality triggered by device motion has UI alternative
 - Shake to undo → has undo button
+
+**2.5.7 Dragging Movements (AA) - WCAG 2.2**
+- Drag-and-drop tasks have a single-pointer or keyboard-accessible alternative
+- Sliders, sortable lists, and maps are operable without dragging
+
+**2.5.8 Target Size (Minimum) (AA) - WCAG 2.2**
+- Pointer targets are at least 24x24 CSS pixels or meet allowed spacing/exceptions
+- Critical controls are not crowded together
 
 ---
 
@@ -240,6 +252,10 @@ Focus on these high-impact criteria:
 - Search icon always means search
 - Consistent labeling
 
+**3.2.6 Consistent Help (A) - WCAG 2.2**
+- Help mechanisms appear in the same relative order across pages when available
+- Contact, self-help, or support links remain predictable
+
 **3.3.1 Error Identification (A)**
 - Errors are clearly identified
 - Specific error messages
@@ -259,6 +275,14 @@ Focus on these high-impact criteria:
 - Reversible: Users can undo submissions
 - Checked: Data is validated before submission
 - Confirmed: Users can review and confirm before final submission
+
+**3.3.7 Redundant Entry (A) - WCAG 2.2**
+- Users are not required to re-enter information already provided in the same process
+- Previously entered values can be selected, auto-filled, or skipped when appropriate
+
+**3.3.8 Accessible Authentication (Minimum) (AA) - WCAG 2.2**
+- Authentication does not require solving a cognitive function test unless an accessible alternative exists
+- Password managers, copy/paste, and alternative methods are supported
 
 ---
 
@@ -635,7 +659,7 @@ Date: Last updated [date]
    - [ ] Regular accessibility audits (quarterly)
    - [ ] Include accessibility in definition of done
    - [ ] Monitor user feedback for accessibility issues
-   - [ ] Stay updated on WCAG 2.2 and future 3.0
+   - [ ] Stay updated on WCAG 2.2 and WCAG 3 working drafts
 
 ---
 
@@ -645,6 +669,8 @@ Date: Last updated [date]
 - [WCAG 2.2 Guidelines](https://www.w3.org/WAI/WCAG22/quickref/)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
+- [WCAG 2.2 ISO/IEC 40500:2025 announcement](https://www.w3.org/press-releases/2025/wcag22-iso-pas/)
+- [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
 
 ### Testing Tools
 - [axe DevTools](https://www.deque.com/axe/devtools/)
@@ -729,12 +755,12 @@ These are high-impact, low-effort fixes:
 6. **Don't rely on color alone**: Use icons, patterns, text
 7. **Provide alternatives**: Captions, transcripts, text descriptions
 8. **Keep it simple**: Complex interfaces are harder to make accessible
-9. **Stay updated**: WCAG evolves (2.0 → 2.1 → 2.2 → 3.0 coming)
+9. **Stay updated**: WCAG evolves; WCAG 3 remains a working draft until W3C publishes it as a Recommendation
 10. **Legal compliance ≠ great UX**: Aim higher than minimum standards
 
 ---
 
-## WCAG 2.2 New Success Criteria (2023)
+## WCAG 2.2 New Success Criteria Summary (2023)
 
 WCAG 2.2 added 9 new criteria:
 
@@ -748,7 +774,7 @@ WCAG 2.2 added 9 new criteria:
 - **3.3.8 Accessible Authentication (Minimum)** (AA) - No cognitive function test for auth
 - **3.3.9 Accessible Authentication (Enhanced)** (AAA) - No cognitive function test (stricter)
 
-Include these in 2.2 audits.
+These are integrated into the main checklist above for 2.2 audits.
 
 ---
 
