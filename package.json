@@ -38,7 +38,8 @@
   },
   "homepage": "https://github.com/mastepanoski/claude-skills#readme",
   "files": [
-    "skills/"
+    "skills/",
+    "scripts/validate.js"
   ],
   "scripts": {
     "validate": "echo 'Validating skills structure...' && node scripts/validate.js",

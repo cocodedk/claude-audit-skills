@@ -32,6 +32,7 @@ When executing this assessment, gather:
 - **ai_system_description**: Description of the AI system (purpose, capabilities, deployment context, users, data sources) [REQUIRED]
 - **system_lifecycle_stage**: Current stage (design, development, deployment, monitoring, decommissioning) [OPTIONAL, defaults to deployment]
 - **organization_context**: Organization size, industry, risk tolerance, regulatory environment [OPTIONAL]
+- **deployment_domain**: Sector and setting, including whether the system supports critical infrastructure [OPTIONAL]
 - **existing_controls**: Current risk management processes or controls in place [OPTIONAL]
 - **specific_concerns**: Known risks, incidents, or areas of focus [OPTIONAL]
 - **stakeholders**: Key stakeholders and affected communities [OPTIONAL]
@@ -496,6 +497,7 @@ Generate a comprehensive NIST AI RMF assessment report:
 - [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
 - [NIST AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook)
 - [NIST AI RMF Generative AI Profile](https://airc.nist.gov/Docs/1)
+- [NIST AI RMF Critical Infrastructure Profile](https://www.nist.gov/itl/ai-risk-management-framework)
 - [NIST Trustworthy AI Resource Center](https://airc.nist.gov/)
 
 ---
@@ -541,6 +543,10 @@ For generative AI systems, additionally evaluate (per NIST AI 600-1 GenAI Profil
 - **Harmful content**: Filters and safeguards for toxic or dangerous outputs
 - **Third-party risks**: Foundation model and API dependencies
 - **Human-AI interaction**: User awareness that they are interacting with AI
+
+## Critical Infrastructure Note
+
+If the AI system supports critical infrastructure operations, also check current NIST AI RMF profile material for trustworthy AI in critical infrastructure. NIST released a concept note for this profile on April 7, 2026; treat it as additional context rather than a replacement for AI RMF 1.0.
 
 ---
 

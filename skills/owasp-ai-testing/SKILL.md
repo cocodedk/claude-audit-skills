@@ -1,13 +1,13 @@
 ---
 name: owasp-ai-testing
-description: AI trustworthiness testing using OWASP AI Testing Guide v1. Execute 44 test cases across 4 layers (Application, Model, Infrastructure, Data) with practical payloads and remediation.
+description: AI trustworthiness testing using OWASP AI Testing Guide v1. Execute 32 test cases across 4 layers (Application, Model, Infrastructure, Data) with practical payloads and remediation.
 ---
 
 # OWASP AI Testing Guide
 
 This skill enables AI agents to perform **systematic trustworthiness testing** of AI systems using the **OWASP AI Testing Guide v1**, published November 2025 by the OWASP Foundation.
 
-The AI Testing Guide is the industry's first open standard for AI trustworthiness testing. Unlike vulnerability lists that identify WHAT risks exist, this guide provides a practical, repeatable methodology for HOW to test AI systems. It establishes 44 test cases across 4 layers, each with objectives, payloads, observable responses, and remediation guidance.
+The AI Testing Guide is the industry's first open standard for AI trustworthiness testing. Unlike vulnerability lists that identify WHAT risks exist, this guide provides a practical, repeatable methodology for HOW to test AI systems. It establishes 32 test cases across 4 layers, each with objectives, payloads, observable responses, and remediation guidance.
 
 The guide's core principle: **"Security is not sufficient, AI Trustworthiness is the real objective."** AI systems fail for reasons beyond traditional security, including bias, hallucinations, misalignment, opacity, and data quality issues.
 
@@ -40,12 +40,24 @@ When executing this testing guide, gather:
 - **data_details**: Training data sources, vector databases, data pipelines [OPTIONAL]
 - **existing_controls**: Current security and trustworthiness measures [OPTIONAL]
 - **risk_context**: Data sensitivity, regulatory requirements, deployment context [OPTIONAL]
+- **testing_authorization**: Explicit authorization, environment, and boundaries for active testing [REQUIRED for live or active tests]
+- **safe_testing_mode**: documentation-only, staging, production-readonly, or production-approved [OPTIONAL, defaults to documentation-only unless authorization is clear]
+
+## Authorized Testing Boundary
+
+Only run active tests on systems the user owns or is explicitly authorized to test. If `testing_authorization` is absent or ambiguous, limit the work to architecture review, checklist assessment, and safe hypothetical payload examples.
+
+For production systems:
+- Prefer read-only validation or a staging environment
+- Do not attempt destructive, persistence, denial-of-service, or data-exfiltration tests unless written authorization and scope are explicit
+- Redact credentials, secrets, PII, and sensitive outputs in reports
+- Stop and report if testing crosses the approved scope
 
 ---
 
 ## The 4-Layer Testing Framework
 
-The OWASP AI Testing Guide organizes 44 test cases across four layers:
+The OWASP AI Testing Guide organizes 32 test cases across four layers:
 
 ```
 ┌─────────────────────────────────────────┐

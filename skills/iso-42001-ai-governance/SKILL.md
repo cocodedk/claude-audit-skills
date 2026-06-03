@@ -1,15 +1,17 @@
 ---
 name: iso-42001-ai-governance
-description: AI governance audit using ISO 42001 standard. Ensures AI systems are developed and deployed responsibly with risk management, ethics, security, transparency, and compliance best practices.
+description: AI governance readiness and gap assessment using ISO/IEC 42001:2023. Evaluate AI management-system practices for risk management, accountability, transparency, security, and continuous improvement.
 ---
 
 # ISO 42001 AI Governance Audit
 
-This skill enables AI agents to perform a comprehensive **AI governance and compliance audit** based on **ISO/IEC 42001:2023** - the international standard for Artificial Intelligence Management Systems (AIMS).
+This skill enables AI agents to perform a comprehensive **AI governance readiness and gap assessment** based on **ISO/IEC 42001:2023** - the international standard for Artificial Intelligence Management Systems (AIMS).
 
 ISO 42001 provides a framework for responsible development, deployment, and use of AI systems, addressing risks, ethics, security, transparency, and regulatory compliance.
 
-Use this skill to ensure AI projects follow international best practices, manage risks effectively, and maintain ethical standards throughout the AI lifecycle.
+Use this skill to evaluate whether AI projects follow international best practices, manage risks effectively, and maintain ethical standards throughout the AI lifecycle.
+
+**Certification boundary**: This skill can prepare evidence and identify gaps, but it is not a certification audit. Do not claim ISO/IEC 42001 conformance unless a qualified auditor or certification process verifies it.
 
 Combine with security audits, code reviews, or ethical AI assessments for comprehensive AI system evaluation.
 
@@ -36,6 +38,7 @@ When executing this audit, gather:
 - **existing_documentation**: Technical docs, data sheets, model cards, risk assessments [OPTIONAL]
 - **stakeholders**: Who develops, deploys, uses, and is affected by the AI [OPTIONAL]
 - **regulatory_context**: Applicable laws (GDPR, EU AI Act, industry regulations) [OPTIONAL]
+- **impact_assessment_context**: Existing or needed AI impact assessments, especially for systems affecting individuals, groups, or society [OPTIONAL]
 
 ## ISO 42001 Framework Overview
 
@@ -77,6 +80,10 @@ ISO 42001 is structured around **10 key clauses** plus supporting annexes:
 - Involve affected parties
 - Clear communication about AI use
 - Mechanisms for feedback and redress
+
+### Related ISO AI Standards
+
+Use ISO/IEC 42001 as the management-system anchor. When the request focuses on social, human, environmental, or lifecycle impact assessment, also reference **ISO/IEC 42005:2025** as a companion standard for AI system impact assessments. When the request focuses on risk methodology, consider ISO/IEC 23894 as supporting guidance.
 
 ---
 
@@ -1162,7 +1169,7 @@ Use this quick reference for self-assessment:
 7. **Regular Audits**: Don't wait for problems—proactive reviews
 8. **Learn from Incidents**: Every issue is improvement opportunity
 9. **Balance Innovation and Safety**: Responsible AI doesn't mean no AI
-10. **Seek Certification**: Third-party ISO 42001 certification adds credibility
+10. **Seek Independent Review When Needed**: Third-party ISO 42001 certification can add credibility, but this skill only supports readiness and evidence preparation
 
 ---
 
@@ -1186,6 +1193,11 @@ ISO 42001 aligns with major AI regulations:
 - Govern, Map, Measure, Manage functions
 - Risk-based approach
 - Trustworthy AI characteristics
+
+**ISO/IEC 42005:2025:**
+- AI system impact assessment
+- Human, social, and environmental impacts across the lifecycle
+- Transparent documentation of foreseeable impacts
 
 **Sector-Specific:**
 - Healthcare: FDA AI/ML guidance, MDR

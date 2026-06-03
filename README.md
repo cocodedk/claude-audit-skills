@@ -1,6 +1,6 @@
 # @mastepanoski/claude-skills
 
-![Version](https://img.shields.io/badge/version-1.7.0-blue)
+![Version](https://img.shields.io/badge/version-1.7.1-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Skills](https://img.shields.io/badge/skills-11-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
@@ -17,12 +17,14 @@ Our skills are indexed on **[skills.sh](https://skills.sh/?q=mastepanoski)** —
 
 ## 🤖 Compatible AI Assistants
 
-These skills work with any AI assistant supporting the **Agent Skills standard**:
+These skills are plain `SKILL.md` folders and work with assistants that support the **Agent Skills standard**:
 
-- ✅ **Claude Code** (Anthropic)
-- ✅ **OpenAI Codex CLI**
+- ✅ **Claude Code** (Anthropic) - install into `.claude/skills/` or with `npx skills`
+- ✅ **OpenAI Codex CLI** - use the same skill folders in `.codex/skills/` or with `npx skills`
 - ✅ **ChatGPT**
 - ✅ Any other agent supporting the specification
+
+No separate Claude/Codex variants are maintained; the shared `skills/<skill-name>/SKILL.md` files are the source of truth.
 
 ## 🚀 Quick Start
 
@@ -176,7 +178,7 @@ Comprehensive **visual design evaluation** across 10 dimensions:
 - Color system & contrast
 - Spacing & layout grid
 - Component consistency
-- Branding & modern trends
+- Branding & category conventions
 
 **Best for**: Visual refinement, design system audits, brand consistency
 
@@ -269,7 +271,7 @@ npx skills add mastepanoski/claude-skills --skill owasp-ai-testing
 ```
 
 Systematic AI trustworthiness testing using **OWASP AI Testing Guide v1** (2025):
-- **44 test cases** across 4 layers: Application, Model, Infrastructure, Data
+- **32 test cases** across 4 layers: Application, Model, Infrastructure, Data
 - Practical payloads, observable indicators, and remediation for each test
 - Goes beyond security: fairness, explainability, reliability, privacy
 - Test IDs: AITG-APP (14), AITG-MOD (7), AITG-INF (6), AITG-DAT (5)

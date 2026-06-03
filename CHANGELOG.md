@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Corrected OWASP AI Testing Guide coverage from 44 to 32 test cases.
+- Updated WCAG guidance for ISO/IEC 40500:2025 and integrated WCAG 2.2 A/AA criteria into the main checklist.
+- Added NIST critical infrastructure profile and ISO/IEC 42005 impact assessment pointers.
+- Clarified Claude Code and Codex compatibility through the shared `SKILL.md` folder format.
+
+### Security
+- Added explicit authorization and scope boundaries for active OWASP LLM and AI testing.
+
 ## [1.7.1] - 2026-03-04
 
 ### Security
@@ -21,7 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.6.0] - 2026-02-05
 
 ### Added
-- **OWASP AI Testing Guide skill** - AI trustworthiness testing with 44 test cases
+- **OWASP AI Testing Guide skill** - AI trustworthiness testing with 32 test cases
   - Based on OWASP AI Testing Guide v1 (November 2025)
   - 4 testing layers with complete test case coverage:
     * Application Layer (AITG-APP-01 to AITG-APP-14): Prompt injection, data leak, unsafe outputs, agentic behavior, bias, hallucinations, explainability
@@ -246,7 +255,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.7.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.7.1...HEAD
+[1.7.1]: https://github.com/mastepanoski/claude-skills/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/mastepanoski/claude-skills/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/mastepanoski/claude-skills/compare/v1.5.0...v1.6.0
 [1.5.0]: https://github.com/mastepanoski/claude-skills/compare/v1.4.0...v1.5.0
