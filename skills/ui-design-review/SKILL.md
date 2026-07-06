@@ -977,6 +977,16 @@ Each dimension scored 0-10:
 
 ---
 
+## Never
+
+- Never report a subjective preference as a defect — tie every issue to a concrete criterion (px size, contrast ratio, spacing value, count).
+- Never fabricate a screenshot, measurement, or color value as evidence; if you cannot inspect it, say so and lower confidence.
+- Never claim a contrast or readability failure without the actual ratio or font size behind it.
+- Never assign a dimension score without naming the strengths and issues that produced it.
+- Never invent brand or competitor facts — analyze only the visual evidence provided.
+
+---
+
 ## Common Design Smells
 
 Quick indicators of visual design issues:

@@ -188,6 +188,16 @@ The report covers:
 
 ---
 
+## Never
+
+- Never run active or destructive tests without explicit `testing_authorization` — default to documentation-only review.
+- Never mark a test case FAIL without the observed response as evidence; a control you could not exercise is N/A or "not tested", not a failure.
+- Never flag a weakness the system already mitigates — confirm the control is actually absent or bypassable before reporting it.
+- Never include unredacted secrets, PII, or raw sensitive model output in the report.
+- Never report a finding without a severity, the evidence, and a concrete remediation.
+
+---
+
 ## Best Practices
 
 1. **Test early and often**: Integrate AI testing into development lifecycle
