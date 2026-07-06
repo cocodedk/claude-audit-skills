@@ -745,6 +745,16 @@ These are high-impact, low-effort fixes:
 
 ---
 
+## Never
+
+- Never report a contrast failure without the measured ratio and the threshold it misses (e.g., 2.85:1 vs 4.5:1 required).
+- Never mark a criterion PASS or FAIL that you could not actually inspect — record it as "Not Evaluated" instead of guessing.
+- Never claim missing alt text, labels, or ARIA without citing the specific element or code as evidence.
+- Never map a finding to the wrong success criterion — every issue states the WCAG number and level (A/AA).
+- Never present automated-tool output as a complete audit; it catches ~30–40% and must be confirmed by manual testing.
+
+---
+
 ## Best Practices
 
 1. **Test with real users**: People with disabilities provide insights automation misses

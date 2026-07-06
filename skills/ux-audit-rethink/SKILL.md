@@ -1102,6 +1102,16 @@ This skill incorporates Design Thinking:
 
 ---
 
+## Never
+
+- Never present simulated or expert-review ratings as measured metrics — label completion rates, times, and satisfaction as estimates unless real data is supplied.
+- Never fabricate analytics, user feedback, or persona quotes; use only evidence provided in the inputs.
+- Never propose a redesign that is not traced to an observed issue and the framework factor it violates.
+- Never report a factor or characteristic score without the evidence and specific issues behind it.
+- Never assert an accessibility pass — defer WCAG conformance claims to the WCAG audit.
+
+---
+
 ## Best Practices
 
 1. **Be Evidence-Based**: Support ratings with data, feedback, or observations
