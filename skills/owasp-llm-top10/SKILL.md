@@ -681,6 +681,16 @@ Generate a comprehensive OWASP LLM security audit report:
 
 ---
 
+## Never
+
+- Never mark a vulnerability "Vulnerable" without verifying the current code actually lacks the mitigation — over-reporting already-mitigated controls is this audit's most common failure.
+- Never run active or destructive payloads without explicit `testing_authorization`; default to documentation and architecture review with hypothetical examples.
+- Never report a finding without concrete evidence (the payload, response, or code path) and the LLM0X reference it maps to.
+- Never include unredacted secrets, PII, or sensitive prompt/model output in the report.
+- Never assign a severity without stating the likelihood and impact behind it.
+
+---
+
 ## Best Practices
 
 1. **Defense in depth**: Never rely on a single security control

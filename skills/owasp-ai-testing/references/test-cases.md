@@ -16,8 +16,6 @@ Load the layer section you are testing (see `SKILL.md` → "Test Cases").
 
 | ID | Test Name | Layer | Priority |
 |---|---|---|---|
-| ID | Test Name | Layer | Priority |
-|---|---|---|---|
 | AITG-APP-01 | Prompt Injection | Application | P0 |
 | AITG-APP-02 | Indirect Prompt Injection | Application | P0 |
 | AITG-APP-03 | Sensitive Data Leak | Application | P0 |

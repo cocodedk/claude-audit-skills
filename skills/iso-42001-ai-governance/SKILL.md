@@ -128,6 +128,16 @@ The report covers, in order:
 
 ---
 
+## Never
+
+- Never claim ISO/IEC 42001 conformance or certification — this skill assesses readiness and gaps only.
+- Never flag a clause as a gap without first checking the supplied documentation and evidence for an existing control.
+- Never assign a clause score without citing the evidence (or the specific missing artifact) behind it.
+- Never invent risks, owners, or deadlines — mark unknowns as "evidence needed" rather than asserting them.
+- Never report a finding without a concrete recommendation and the ISO 42001 clause it maps to.
+
+---
+
 ## Best Practices
 
 1. **Start with Risk Assessment**: Prioritize based on AI risk level
